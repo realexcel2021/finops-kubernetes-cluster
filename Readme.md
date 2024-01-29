@@ -44,7 +44,7 @@ In comparison to other tools, Vantage offers;
    The forecasted billing feature of Vantage Cloud is great for strategic financial planning. It's not just about knowing what you've spent; it's about understanding future financial commitments. Vantage Cloud offers a clear view of future expenses based on current usage patterns, which was particularly evident when I monitored the projected costs for the K8s cluster over different time frames. This foresight is invaluable for budgeting and financial planning, allowing businesses to allocate funds more effectively and avoid unexpected costs.
 
 -  Cross-Platform Compatibility: 
-![Alt text](image-4.png)
+![Alt text](img/image-4.png)
    In today's cloud-centric world, many businesses operate in multi-cloud environments, and Vantage Cloud's cross-platform compatibility makes it an indispensable tool. Whether it's AWS, Azure, Google Cloud, or any other major cloud provider, Vantage Cloud seamlessly integrates with these platforms. This was evident in the ease with which I could manage and analyze the K8s cluster deployed on AWS while considering resources on other platforms. This compatibility ensures that businesses can have a unified view and control of their cloud resources, irrespective of the cloud service provider, simplifying management and enhancing efficiency across diverse cloud environments.
 
 
