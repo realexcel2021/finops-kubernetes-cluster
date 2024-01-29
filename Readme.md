@@ -27,20 +27,20 @@ Some of it’s capabilities include;
 
 In comparison to other tools, Vantage offers;
 
-![Comparison with other tools](./img/image-3.png)
+![Comparison with other tools](/img/image-3.png)
 
 
 ## Justifications for Choosing Vantage 
 
 -  Cost-Effectiveness: 
-![A list of resources used and individual cost on Vantage UI](./img/image-2.png)
+![A list of resources used and individual cost on Vantage UI](/img/image-2.png)
    Vantage Cloud's precision in pricing and cost optimization is a major factor, the tool goes beyond basic cost tracking; it actively suggests ways to reduce unnecessary expenditure. For instance, during the deployment of a Kubernetes (K8s) cluster, I noticed how Vantage Cloud identified and recommended adjustments for underutilized resources. This level of detail ensured that I was not spending more than necessary. By optimizing cloud resource usage, Vantage Cloud effectively reduces wastage and maximizes the value of every dollar spent on cloud services. This is especially crucial for businesses where cloud costs form a significant portion of operational expenses.
 
 - Time-Saving: 
    Vantage Cloud’s quick deployment capability and real-time data updates are significant time-savers. When I deployed the K8s cluster, I was impressed by how swiftly Vantage Cloud provided cost information and resource utilization data. This rapid feedback loop allows for immediate adjustments, saving hours that would otherwise be spent in manual monitoring and calculations. By streamlining these processes, Vantage Cloud frees up time, enabling users to concentrate on core business functions rather than getting bogged down by cloud management complexities.
 
  - Strategic Financial Planning: 
-![A graph showing the forecasted bill from the day the cluster was deployed to the end if the month](./img/image-1.png)
+![A graph showing the forecasted bill from the day the cluster was deployed to the end if the month](/img/image-1.png)
    The forecasted billing feature of Vantage Cloud is great for strategic financial planning. It's not just about knowing what you've spent; it's about understanding future financial commitments. Vantage Cloud offers a clear view of future expenses based on current usage patterns, which was particularly evident when I monitored the projected costs for the K8s cluster over different time frames. This foresight is invaluable for budgeting and financial planning, allowing businesses to allocate funds more effectively and avoid unexpected costs.
 
 -  Cross-Platform Compatibility: 
