@@ -1,6 +1,6 @@
 apiVersion: v2
-name: nginxtest
-description: A Helm chart for Kubernetes for Nginx
+name: nginx
+description: A Helm chart for Kubernetes
 
 # A chart can be either an 'application' or a 'library' chart.
 #
