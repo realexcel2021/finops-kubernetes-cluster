@@ -1,0 +1,35 @@
+
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: wordpress-app
+  namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
+spec:
+  destination:
+    namespace: wordpress
+    server: https://kubernetes.default.svc 
+  source:
+    repoURL: https://charts.bitnami.com/bitnami
+    chart: wordpress
+    helm:
+      values: |
+        replicaCount: 2
+        wordpressUsername: admin
+        wordpressPassword: 12345678
+        persistence:
+          enabled: false
+        mariadb:
+          enabled: true
+          auth:
+            rootPassword: 12345678hj
+            database: 12345678hj
+
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
