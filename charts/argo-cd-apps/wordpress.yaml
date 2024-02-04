@@ -12,8 +12,8 @@ spec:
     server: https://kubernetes.default.svc 
   source:
     repoURL: https://charts.bitnami.com/bitnami
-    chart: bitnami/wordpress
-    targetRevision: 19.2.3
+    chart: wordpress
+    targetRevision: 19.2.2
     helm:
       values: |
         replicaCount: 2
