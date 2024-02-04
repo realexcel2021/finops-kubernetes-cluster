@@ -19,6 +19,7 @@ spec:
         replicaCount: 1
         prestashopUsername: admin
         prestashopPassword: "12345678HJ"
+        prestashopHost: localhost
         persistence:
           enabled: false
         mariadb:
