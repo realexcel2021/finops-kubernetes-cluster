@@ -12,20 +12,19 @@ spec:
     server: https://kubernetes.default.svc 
   source:
     repoURL: https://charts.bitnami.com/bitnami
-    chart: wordpress
-    targetRevision: 19.2.2
+    chart: prestashop
+    targetRevision: 20.2.2
     helm:
       values: |
         replicaCount: 2
-        wordpressUsername: admin
-        wordpressPassword: "12345678HJ"
+        prestashopUsername: admin
+        prestashopPassword: "12345678HJ"
         persistence:
           enabled: false
         mariadb:
           enabled: true
           auth:
             rootPassword: "12345678HJ"
-            database: "12345678HJ"
 
   project: default
   syncPolicy:
