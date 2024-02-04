@@ -25,7 +25,7 @@ spec:
           enabled: true
           auth:
             rootPassword: "12345678HJ"
-
+            password: "12345678HJ"
   project: default
   syncPolicy:
     automated:
