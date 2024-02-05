@@ -13,7 +13,7 @@ spec:
   source:
     repoURL: https://charts.bitnami.com/bitnami
     chart: wordpress
-    targetRevision: 19.2.2
+    targetRevision: 19.2.3
     helm:
       values: |
         replicaCount: 2
