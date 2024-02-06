@@ -91,3 +91,19 @@ kubectl port-forward svc/wordpress-app -n wordpress 3000:80
 
 
 ## Fast API Application Interface
+
+Using the [Fast API](https://argocd-api-htgvvmv22a-ew.a.run.app/docs#/deployment/deploy_application_api_deployment__post) app interface, we followed the JSON schema provided
+
+![Alt text](img/image-7.png)
+
+Made edits to fit the resources we provided in the helm file, clicked the execute button our application was deployed on argoCD
+
+![Alt text](img/image-6.png)
+
+![Alt text](img/image-8.png)
+
+To access our application we used the loadbalancer public IP (which you would find in the service resourse for the app) and specified the port
+
+## Conclusion
+
+This guide demonstrated deploying a WordPress application on a Kubernetes cluster using a helm chart and an API request with ArgoCD. This method offers an efficient and scalable way to manage applications in Kubernetes, utilizing the power of GitOps and declarative configuration. By following these steps, you can deploy and manage your applications reliably on Kubernetes.
