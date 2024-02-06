@@ -1,0 +1,40 @@
+{
+    "app_name": "oracle-wordpress",
+    "helm_chart": "wordpress",
+    "helm_chart_repo_url": "https://charts.bitnami.com/bitnami",
+    "helm_chart_version": "19.2.2",
+    "parameters": [
+      {
+        "name": "replicaCount",
+        "value": "2"
+      },
+      {
+        "name": "wordpressUsername",
+        "value": "admin"
+      },
+      {
+        "name": "wordpressPassword",
+        "value": "12345678HJ"
+      },
+      {
+        "name": "persistence.enabled",
+        "value": "false"
+      },
+      {
+        "name": "mariadb.enabled",
+        "value": "true"
+      },
+      {
+        "name": "auth.rootPassword",
+        "value": "true"
+      },
+      {
+        "name": "auth.database",
+        "value": "12345678HJ"
+      },
+      {
+        "name": "service.ports.http",
+        "value": "8080"
+      }
+    ]
+}
