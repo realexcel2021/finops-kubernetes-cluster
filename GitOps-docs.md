@@ -72,8 +72,8 @@ kubectl get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | 
 
 ### Step 8: Set Up ArgoCD as an App of Apps
 
-1. **App of Apps**: This method involves creating a parent application in ArgoCD that manages other applications. It allows for organizing and managing multiple applications systematically.
-
+1. **App of Apps**: We created a parent application in ArgoCD that manages the wordpress application and maria database. It allows for organizing and managing multiple applications systematically.
+![Alt text](img/image-5.png)
 ### Step 9: Deploy WordPress Using ArgoCD
 
 1. **Prepare WordPress Manifest**: Use the provided manifest to define the WordPress application in ArgoCD.
