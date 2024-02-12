@@ -17,15 +17,15 @@ spec:
     helm:
       values: |
         replicaCount: 1
-        prestashopUsername: admin
-        prestashopPassword: "12345678HJ"
+        wordpressUsername: ""
+        wordpressPassword: ""
         persistence:
           enabled: false
         mariadb:
           enabled: true
           auth:
-            rootPassword: "12345678HJ"
-            database: "12345678HJ"
+            rootPassword: ""
+            database: ""
 
   project: default
   syncPolicy:
